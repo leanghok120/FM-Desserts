@@ -3,7 +3,7 @@ function FoodCard({ image, type, food, price }) {
     <div>
       <div>
         <img src={image} width={300} alt="food" className="rounded-xl"></img>
-        <button className="font-bold text-md flex items-center gap-3 bg-white py-2 px-6 rounded-full border border-orange-300 relative bottom-6 left-[58px]">
+        <button className="font-bold text-md flex items-center gap-3 bg-white py-2 px-6 rounded-full border border-orange-300 hover:border-orange-700 hover:text-orange-700 relative bottom-6 left-[58px]">
           <img
             src="./src/assets/images/icon-add-to-cart.svg"
             alt="add to cart icon"
